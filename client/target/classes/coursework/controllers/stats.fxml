@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="699.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework.controllers.StatsController">
+   <children>
+      <LineChart fx:id="Chart" layoutX="7.0" layoutY="14.0" prefHeight="500.0" prefWidth="658.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <xAxis>
+            <CategoryAxis fx:id="categoryAxis" animated="false" side="BOTTOM" />
+         </xAxis>
+         <yAxis>
+            <NumberAxis fx:id="numberAxis" side="LEFT" />
+         </yAxis>
+      </LineChart>
+      <Label layoutX="295.0" layoutY="628.0" text="Выбор продукции:">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="500.0" text="Выбор теста:">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="568.0" text="Выбор типа продукта:">
+         <font>
+            <Font name="Cambria" size="22.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="test" focusTraversable="false" layoutX="544.0" layoutY="492.0" onAction="#onAction_Test" prefHeight="43.0" prefWidth="141.0" style="-fx-background-radius: 15; -fx-font-family: Cambria; -fx-font-size: 22; -fx-background-color: e9e9e9;" />
+      <ComboBox fx:id="type" focusTraversable="false" layoutX="544.0" layoutY="560.0" onAction="#onAction_Type" prefHeight="43.0" prefWidth="141.0" style="-fx-background-radius: 15; -fx-font-family: Cambria; -fx-font-size: 22; -fx-background-color: e9e9e9;" />
+      <ComboBox fx:id="product" focusTraversable="false" layoutX="544.0" layoutY="620.0" onAction="#onAction_Product" prefHeight="43.0" prefWidth="141.0" style="-fx-background-radius: 15; -fx-font-family: Cambria; -fx-font-size: 22; -fx-background-color: e9e9e9;" />
+   </children>
+</AnchorPane>

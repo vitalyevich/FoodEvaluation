@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="coursework.controllers.LearnController">
+   <children>
+      <Label layoutX="37.0" layoutY="141.0" text="О нас">
+         <font>
+            <Font name="Cambria Bold" size="64.0" />
+         </font>
+      </Label>
+      <VBox layoutX="37.0" layoutY="221.0" prefHeight="68.0" prefWidth="456.0">
+         <children>
+            <Label prefHeight="24.0" prefWidth="441.0" text="Данная программа позволяет оценить">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="441.0" text="качество продукции БГУИР. Отвечая">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="34.0" prefHeight="24.0" prefWidth="441.0" text="честно на вопросы, вы помогаете ">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="441.0" text="улучшать качество наших продуктов!">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+            </Label>
+            <Label prefHeight="24.0" prefWidth="441.0">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
